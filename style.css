@@ -1,0 +1,200 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#ddd6f3), to(#faaca8));
+  background: linear-gradient(90deg, #ddd6f3, #faaca8);
+  color: #000000;
+
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 22;
+  
+}
+
+code {
+  background: #fdbb2d;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  margin: 0 0.3rem;
+}
+
+.my-gradient {
+  background-image: -webkit-gradient(linear, left top, right top, from(#ddd6f3), to(#faaca8)) !important;
+  background-image: linear-gradient(90deg, #ddd6f3, #faaca8) !important;
+  
+}
+
+#portfolio {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.namefont {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: bold;
+  font-size: normal;
+  background: -webkit-linear-gradient(#000428, #004e92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img-fluid {
+  height: 500px;
+  width: auto;
+}
+
+.prop {
+  border-radius: 5rem;
+}
+
+.card {
+  border-radius: 6px;
+  background-color: rgba(245, 245, 245, 0);
+  box-shadow: 13px 17px 134px 9px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 13px 17px 134px 9px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 13px 17px 134px 9px rgba(0, 0, 0, 0.3);
+}
+
+.card-header, .card-footer {
+  opacity: 1;
+}
+
+.contact {
+  margin-left: 3%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.square_btn {
+  position: relative;
+  display: inline-block;
+  font-weight: normal;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #080808;
+  background: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border: none;
+}
+
+.square_btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10rem;
+}
+
+.form-control {
+  width: auto !important;
+  background-color: rgba(245, 245, 245, 0.2) !important;
+  text-align: center;
+  margin: auto;
+  border: none;
+  font-size: 1rem;
+  box-shadow: -1px -3px 267px 12px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: -1px -3px 267px 12px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px -3px 267px 12px rgba(0, 0, 0, 0.2);
+}
+
+.labels {
+  margin-top: 5rem;
+}
+
+.btn-primary {
+  background-color: #ecbfcb;
+  border: none;
+  color: #000000;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn-primary:hover {
+  background-color: #faaca8 !important;
+  background: -webkit-linear-gradient(#000428, #004e92);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+label.error {
+  font-weight: bold;
+  font-size: normal;
+  background: -webkit-gradient(linear, left top, right top, from(#C34632), to(#E97452));
+  background: linear-gradient(90deg, #C34632, #E97452);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-primary1 {
+  background-color: #ecbfcb;
+  border: none;
+  color: #000000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.card-body
+{
+  height: 250px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.abtme
+{
+  width: 100%;
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: 600;
+  font-size: larger;
+  background: -webkit-linear-gradient(3deg, black , rgb(102, 102, 102));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/*# sourceMappingURL=style.css.map */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(245, 245, 245, 0.2); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 245, 245, 0.1); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(163, 163, 163);
+  }
+
+  .frstltr
+  {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: xx-large;
+    font-weight: bold;
+    font-size: normal;
+    background: -webkit-linear-gradient(90deg,#5176ce, rgb(245, 137, 14));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }

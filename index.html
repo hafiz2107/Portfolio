@@ -28,11 +28,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 
+
   
   
 </head>
 
 <body>
+  <div>
   <header class="container-fluid p-0" >
     <div class="row" id="backimg">
       <div class="column col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 navbarpos">
@@ -86,7 +88,7 @@
             <h1 class="namefont text-center" style="font-family: 'Josefin Sans', sans-serif;" id="#aboutme"><br>About Me
             </h1><br>
             <p class="abtme mt-3" ><span class="frstltr">I</span>'m a Telecommunication Engineer, AI/ML Enthusiast, MATLAB and Python Cody from India. I'm currently doing as Microsoft Certified Trainer (MCT) and Cisco Certified Trainer, while working on other projects. I currently passionate about AI/ML, Computer Vision, IoT, Networking, Cyber Security and also a passionate researcher. When I'm not developing and building things, you can find me on online learning, writing an article, watching anime, daydreaming actionpacked dreams where i am the MC or on my laptop gaming. But most of my days are spent working on projects, Studying or watching anime.</p>
-
+          
           </div>
          
         </div>
@@ -94,8 +96,8 @@
       </section>
       <section>
         <div class="row">
-          <div>
-            <h1 style="text-align: center;margin-top: 10%;" class="namefont" id="linkservice">SERVICES</h1>
+          <div id="linkservice">
+            <h1 style="text-align: center;margin-top: 10%;" class="namefont" >SERVICES</h1>
           </div>
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 blr">
             <div class="card mx-auto mt-5 " style="width: 90%;">
@@ -191,23 +193,34 @@
         <h1 class="namefont text-center"><br>Ok , Let's keep in touch !</h1><br>
         <div class="row">
           <div class="column cl-12 center">
-            <form class="text-center" id="submit-form">
+            <form class="text-center" id="submit-form"> 
 
 
 
               <div class="mb-3">
                 <label for="contact_name" class="form-label"><i class="bi bi-person-circle"></i> Full name</label>
-                <input class="form-control" id="form_fname" type="text" name="name">
+                <input class="form-control" id="form_fname" type="text" name="name" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)">
               </div>
 
               <div class="mb-3">
                 <label class="form-label"><i class="bi bi-envelope-open"></i> Email</label>               
                 <input class="form-control" type="email" id="form_email" name="email">
               </div>
+
+              <div class="mb-3">
+                <label class="form-label"><i class="bi bi-briefcase"></i> Company name</label>               
+                <input class="form-control" type="text" id="form_company" name="company">
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label"><i class="bi bi-phone"></i> Mobile Number</label>               
+                <input class="form-control" type="tel" id="form_mobile" name="mobile">
+              </div>
+              
              
               <div class="mb-3">
                 <label class="form-label" for="subject"><i class="bi bi-lightbulb"></i> If you got any ideas to share with,<br> please let me know!</label>
-                <textarea class="form-control" id="subject" cols="auto" rows="auto" name="message" placeholder="Type Your ideas"></textarea>
+                <textarea class="form-control" id="subject" cols="auto" rows="auto" name="message1" placeholder="Type Your ideas"></textarea>
               </div>
 
               <div id="contact_submit">
@@ -261,7 +274,7 @@
     crossorigin="anonymous"></script>
 
     
-
+  </div>
 </body>
 
 </html>
